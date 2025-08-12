@@ -1,6 +1,7 @@
 circularDNACircos - This is a R package to plot the circos plots for the circular DNA.
 
-==== Use the library ================
+
+=======================================
 library(circularDNACircos)
 dual_circos_plot("/path_to_file1","/path_to_file2")
 
@@ -23,9 +24,9 @@ Both the files can be either in text or csv format.
 Case-1: If the files are in the text format 
 File -1( columns should be "TAB" seperated and no need to add headers but add values for the following columns "chromosome", "start1", "end1", "start2", "end2", "orientation")  
 Example format
-chr1  1000  1150  1350  1500  FR\n
-chr1  1200  1350  1550  1700  FR\n
-chr1  1000  1050  1900  2000  FF\n
+chr1  1000  1150  1350  1500  FR
+chr1  1200  1350  1550  1700  FR
+chr1  1000  1050  1900  2000  FF
 
 File -2( columns should be "TAB" seperated and no need to add headers but add values for the following columns "chromosome", "start1", "end1", "start2", "end2", "start3", "end3", "orientation")
 Example format 
