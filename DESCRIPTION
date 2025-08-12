@@ -1,0 +1,32 @@
+Package: circularDNACircos
+Type: Package
+Title: Circos Plotting Tools
+Version: 0.99.0
+Authors@R: c(
+    person(
+      "Sai Rohith", "Kota",
+      email = "hjp7ht@virginia.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: Imports the circular pairs information from the csv or text files and creates circular visualizations using the R circlize library of these circular pairs.
+Depends: 
+    R (>= 4.4)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    circlize,
+    readr,
+    grDevices
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0),
+    BiocStyle
+biocViews: Software, Visualization, DataImport, StructuralVariants, Genome
+RoxygenNote: 7.3.2
+URL: https://github.com/hjp7ht/circularDNACircos
+BugReports: https://github.com/hjp7ht/circularDNACircos/issues
+Config/testthat/edition: 3
+VignetteBuilder: knitr
